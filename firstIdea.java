@@ -28,8 +28,7 @@ class Node {
         this.path = path;
         this.isHidden = isHidden;
         this.parent.addChildren(this);
-        //set prefix prefix i depth kje bidat spored brojot na \ vo patot na node-ot
-        //set depth
+
     }
 
     public void InitializeRoot() {
@@ -125,8 +124,6 @@ class Tree {
     public void addNode(Node n) {
         nodeArray.put(n.ID, n);
     }
-
-    // Driver method
 
 
 }
